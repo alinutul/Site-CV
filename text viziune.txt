@@ -12,3 +12,14 @@ O-
 T-
 Planul de realizare-
 realizari: locul 3 la concursul interjudetean Sigma, Mentiune la OJI, locul 3 la etapa judeteana a concursului ISTORIE ŞI SOCIETATE ÎN DIMENSIUNE VIRTUALĂ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
