@@ -10,7 +10,7 @@ S- sunt ambitios si am o familie care ma sustine. Am destul timp pe langa scoala
 W- de multe ori sunt foarte obosit dupa scoala si nu am timp de activitati recreatorioi
 O-
 T-
-Planul de realizare- O sa studiez in timpul meu liber, avand timp si de pauza. Mi-am si reparat calculatorul asa ca pot sa imi continui studiul.
+Planul de realizare-
 realizari: locul 3 la concursul interjudetean Sigma, Mentiune la OJI, locul 3 la etapa judeteana a concursului ISTORIE ŞI SOCIETATE ÎN DIMENSIUNE VIRTUALĂ
 <!DOCTYPE html>
 <html lang="en">

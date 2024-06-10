@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Layout</title>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box" style="background-color: #bd0000;">
+            <div class="title">Strengths</div>
+            <div class="content">Sunt ambitios si am o familie care ma sustine. Am destul timp pe langa scoala.</div>
+        </div>
+        <div class="box" style="background-color: #0e00ad;">
+            <div class="title">Weaknesses</div>
+            <div class="content">De multe ori sunt foarte obosit dupa scoala si nu am timp de activitati recreatoare</div>
+        </div>
+        <div class="box" style="background-color: #048100;">
+            <div class="title">Opportunities</div>
+            <div class="content">Sunt multe locuri pe internet din care poti invata orice</div>
+        </div>
+        <div class="box" style="background-color: #cac700;">
+            <div class="title">Threats</div>
+            <div class="content">Daca nu lucrez destul nu voi ajunge la rezultate</div>
+        </div>
+    </div>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(454deg,#1d1d1d,#646464);
+
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px; /* Adjust the width as needed */
+    }
+    
+    .box {
+
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin: 10px;
+        flex: 0 0 45%; /* Adjust width to 45% for two boxes per row with margin */
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .content {
+        font-size: 14px;
+    }
+    </style>
+</body>
+</html>

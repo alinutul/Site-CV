@@ -1,3 +1,8 @@
+.navbar{    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .navbar p{
     text-align: center;
 }
@@ -22,11 +27,19 @@ ul {
   }
   
   li a:hover{
-  transition: color #fffffff 2s;	    
-  background-color: #111;
+    transition: 0.7s;
+    background-color: #10c000;
 
   }
-  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background:linear-gradient(454deg,#014E9A,#002E5B);
+    color: #557da5;
+  }
+  footer a{
+  color:#557da5;
+  }
 
   body{
     font-family: "LXGW WenKai TC", cursive;
@@ -51,15 +64,5 @@ ul {
     scroll-snap-align: start;
   }
   .slides img{
-    width:350px;    
+    width:50%;  
   }
-footer {
-  text-align: center;
-  padding: 3px;
-background:linear-gradient(454deg,#014E9A,#002E5B);
-  background-color: ;
-  color: #1A2F44;
-}
-footer a{
-color:#1A2F44;
-}
